@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f8f9;
+}
+
+      /* header */
+.header{
+  height: 100px;
+  width: 100%;
+  background: white;
+  position: relative;
+}
+
+#logo{
+  height: 70px;
+  position: absolute;
+  top:50%;
+  left:3%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  font-size: 40px;
+  position: absolute;
+  top:50%;
+  left:180px;
+  transform: translate(-50%, -50%);
+}
+
+    /* main */
+
+.top{
+  align-content: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 50px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 3px;
+    }
+
+
+.button{
+  background: #47adf1;
+  border: solid grey 1px;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 13px;
+  margin-left: 50px;
+  border-radius: 3px;
+}
+.button-2{
+  background: white;
+  border-width: thin;
+  color: lightgrey;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 13px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.container{
+  position: relative;
+  align-content: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.content{
+  position: absolute;
+  left: 50px;
+  top:30px;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+h3::before{
+  content:'▾';
+}
+
+.verde{
+  color: green;
+
+}
+.rosso{
+  color:red;
+}
+.text{
+  color:black;
+}
+
+.tasto{
+  padding: 5px 15px;
+  font-size: 11px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+}
+.tasto-1{
+  background: #47adf1;
+}
+.tasto-2{
+  background: #9c72e4;
+}
+.tasto-3{
+  background: #64c0a9;
+}
+.tasto-4{
+  background: #f29e33;
+}
+.tasto-5{
+  background: #d863a1;
+}
+.tasto-6{
+  background: #b0c926;
+}
+.blocco{
+  margin-top: 25px;
+}
+li{
+  line-height: 200%;
+}
