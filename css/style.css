@@ -100,7 +100,6 @@ h3::before{
 
 .verde{
   color: green;
-
 }
 .rosso{
   color:red;
@@ -139,4 +138,47 @@ h3::before{
 }
 li{
   line-height: 200%;
+}
+
+/* footer */
+
+.footer{
+  padding-top:70px;
+  position: relative;
+  align-content: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 200px;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+h2{
+  font-size: 40px;
+  position: absolute;
+  top:20px;
+  left:50px;
+}
+
+input{
+  width: 40%;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-left: 50px;
+  border-radius: 10px;
+  border-color: #47adf1;
+}
+
+.privacy_policy{
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  margin-top: 20px;
+}
+.check{
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  margin-top: 25px;
 }
